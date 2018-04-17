@@ -1,32 +1,24 @@
-package ProgrammingExercises.Array.LC_MaxAreaofIsland_695;
+package ProgrammingExercises.Array.LC_MaximumProductofThreeNumbers_628;
 /*
-695. Max Area of Island
-https://leetcode.com/problems/max-area-of-island/description/
+628. Maximum Product of Three Numbers
+https://leetcode.com/problems/maximum-product-of-three-numbers/description/
 */
 
+import java.util.Arrays;
+import java.util.LinkedList;
+
 public class Solution {
-
-    private boolean [][]seen;
-    private int [][]grid;
-
-    public int maxAreaOfIsland(int[][] grid) {
-        this.grid = grid;
-        seen = new boolean[grid.length][grid[0].length];
-        int count = 0;
-
-        for(int i = 0; i < grid.length; i++) {
-            for(int j = 0; j < grid[0].length; j++) {
-                count = Math.max(count, dfs(i, j));
-            }
+    public int maximumProduct(int[] nums) {
+        Arrays.sort(nums);
+        int result = 1;
+        if(nums[0] < 0 && nums[1] < 0 && nums[0]*nums[1] > nums[nums.length-2] * nums[nums.length-3] ){
+            nums[nums.length-2] = nums[0];
+            nums[nums.length-3] = nums[1];
         }
-        return count;
-    }
-
-    private int dfs(int i, int j) {
-        if(i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || seen[i][j] || grid[i][j] == 0) {
-            return 0;
+        for(int i = nums.length - 1; nums.length - 4 < i; --i) {
+            result*=nums[i];
         }
-        seen[i][j] = true;
-        return 1 + dfs(i-1, j) + dfs(i, j-1) + dfs(i+1, j) + dfs(i, j+1);
+
+        return result;
     }
 }

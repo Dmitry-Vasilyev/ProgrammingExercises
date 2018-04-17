@@ -1,15 +1,12 @@
-package ProgrammingExercises.Array.LC_MaxAreaofIsland_695;
+package ProgrammingExercises.Array.LC_MaximumProductofThreeNumbers_628;
 
 
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        int arr[][] = {
-                {0,1,1,0,0},
-                {1,1,1,0,0},
-                {0,0,1,1,1}};
+        int[] arr = {-20,-10,3};
 
-        System.out.println(solution.maxAreaOfIsland(arr));
+        System.out.println(solution.maximumProduct(arr));
     }
 }
