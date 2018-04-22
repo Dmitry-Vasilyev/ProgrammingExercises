@@ -1,26 +1,45 @@
-package ProgrammingExercises.String.LC_JudgeRouteCircle_657;
+package ProgrammingExercises.String.LC_RansomNote_383;
 /*
-657. Judge Route Circle
-https://leetcode.com/problems/judge-route-circle/description/
+383. Ransom Note
+https://leetcode.com/problems/ransom-note/description/
 */
 
 
-import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Set;
 
 public class Solution {
-    public boolean judgeCircle(String moves) {
-        HashMap<Character, Integer> steps = new HashMap<>();
-        steps.put('U', 0);
-        steps.put('D', 0);
-        steps.put('L', 0);
-        steps.put('R', 0);
+    public boolean canConstruct(String ransomNote, String magazine) {
+        char[] noteArr = ransomNote.toCharArray();
+        char[] magazineArr = magazine.toCharArray();
 
-        char[] chars = moves.toCharArray();
-        for(char ch: chars) {
-            steps.put(ch, steps.get(ch) + 1);
+        Hashtable<Character, Integer> noteHT = new Hashtable<>();
+        Hashtable<Character, Integer> magazineHT = new Hashtable<>();
+
+        for(Character ch: noteArr) {
+            if(noteHT.containsKey(ch)) {
+                noteHT.put(ch, noteHT.get(ch) + 1);
+            } else {
+                noteHT.put(ch, 1);
+            }
         }
-        boolean X = steps.get('L').intValue() == steps.get('R').intValue();
-        boolean Y = steps.get('U').intValue() == steps.get('D').intValue();
-        return  X && Y ;
+        for(Character ch: magazineArr) {
+            if(magazineHT.containsKey(ch)) {
+                magazineHT.put(ch, magazineHT.get(ch) + 1);
+            } else {
+                magazineHT.put(ch, 1);
+            }
+        }
+        Set<Character> keys = noteHT.keySet();
+
+        for (Character key : keys) {
+            Integer noteCount = noteHT.get(key);
+            Integer mgznCount = magazineHT.get(key);
+            if (mgznCount == null) {
+                return false;
+            }
+            if (mgznCount.intValue() < noteCount.intValue()) return false;
+        }
+        return true;
     }
 }
