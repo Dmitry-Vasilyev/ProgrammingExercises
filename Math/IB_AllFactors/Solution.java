@@ -5,15 +5,20 @@ https://www.interviewbit.com/problems/all-factors/
 */
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Solution {
     public ArrayList<Integer> allFactors(int A) {
         ArrayList<Integer> arr = new ArrayList<>();
-        arr.add(1);
-        for(int i = 2; i <= A/2; ++i) {
-            if(A%i == 0) arr.add(i);
+        for(int i = 1; i <=  Math.sqrt(A); ++i) {
+            if(A%i == 0) {
+                arr.add(i);
+                if(A/i != i) arr.add(A/i);
+            }
+
         }
-        if(A != 1) arr.add(A);
+        Collections.sort(arr);
         return arr;
     }
 }
