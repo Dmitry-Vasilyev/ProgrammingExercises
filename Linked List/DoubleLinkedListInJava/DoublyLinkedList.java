@@ -3,6 +3,10 @@ package ProgrammingExercises.LinkedList.DoubleLinkedListInJava;
 public class DoublyLinkedList {
     private DoublyLinkedNode head;
 
+    DoublyLinkedList() {
+
+    }
+
     DoublyLinkedList(int data) {
         this.head = new DoublyLinkedNode(data);
     }

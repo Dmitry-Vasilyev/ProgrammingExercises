@@ -5,7 +5,9 @@ public class DoublyLinkedNode {
     private DoublyLinkedNode next;
     private DoublyLinkedNode prev;
 
-    DoublyLinkedNode (int data) {
+
+
+    public DoublyLinkedNode (int data) {
         this.data = data;
         this.next = null;
         this.prev = null;
