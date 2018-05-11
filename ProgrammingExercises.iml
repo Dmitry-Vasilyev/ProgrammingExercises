@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" packagePrefix="ProgrammingExercises.Math" />
       <sourceFolder url="file://$MODULE_DIR$/String" isTestSource="false" packagePrefix="ProgrammingExercises.String" />
       <sourceFolder url="file://$MODULE_DIR$/Linked List" isTestSource="false" packagePrefix="ProgrammingExercises.LinkedList" />
+      <sourceFolder url="file://$MODULE_DIR$/Binary Search" isTestSource="false" packagePrefix="ProgrammingExercises.BinarySearch" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
