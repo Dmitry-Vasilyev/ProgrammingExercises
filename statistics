@@ -17,6 +17,8 @@ May
 01.05 - IB_VerifyPrime, IB_PrimeNumbers
 04.05 - IB_IntersectionofLinkedLists
 09.05 - DoublyLinkedList, IB_PRETTYPRINT
+11.05 - IB_CountElementOccurence
+14.05 - IB_RotatedArray
 
 Done with help: ( ! )
 
@@ -25,4 +27,4 @@ IB_IntersectionofLinkedLists
 
 Done by myself but need attention: ( ? )
 
-LC_766, LC_696
+LC_766, LC_696, IB_CountElementOccurence, IB_RotatedArray
