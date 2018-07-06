@@ -37,12 +37,13 @@ June
 
 July
 02.06 - IB_NearestSmallerElement!, IB_SwapListNodesInPairs
+05.06 - IB_MinStack, IB_ListCycle!
 
 Done with help: ( ! )
 
 LC_168, LC_695, IB_Spiral Order Matrix I!, Max Sum Contiguous Subarray, All Factors,
 IB_IntersectionofLinkedLists, IB_Implement Power Function, IB_Implement StrStr,
-IB_NearestSmallerElement
+IB_NearestSmallerElement, IB_ListCycle
 
 Done by myself but need attention: ( ? )
 
