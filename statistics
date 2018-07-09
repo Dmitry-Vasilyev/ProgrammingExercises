@@ -40,6 +40,7 @@ July
 05.06 - IB_MinStack, IB_ListCycle!, IB_Subtract
 06.06 - IB_ColorfulNumber, IB_DiffkII?
 07.06 - IB_Anagrams
+09.06 - IB_2Sum, IB_ValidSudoku
 
 Done with help: ( ! )
 
@@ -50,4 +51,4 @@ IB_NearestSmallerElement, IB_ListCycle, IB_Anagrams
 Done by myself but need attention: ( ? )
 
 LC_766, LC_696, IB_CountElementOccurence, IB_RotatedArray, IB_Merge Two Sorted Lists,
-IB_Container With Most Water, IB_SimplifyDirectoryPath, IB_DiffkII
+IB_Container With Most Water, IB_SimplifyDirectoryPath, IB_DiffkII, IB_ValidSudoku
