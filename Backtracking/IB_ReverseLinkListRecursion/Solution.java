@@ -1,6 +1,6 @@
 package ProgrammingExercises.Backtracking.IB_ReverseLinkListRecursion;
 /*
-IB_ListCycle
+IB_ReverseLinkListRecursion
 https://www.interviewbit.com/problems/list-cycle/
 */
 

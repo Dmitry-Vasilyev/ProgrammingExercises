@@ -42,12 +42,14 @@ July
 07.06 - IB_Anagrams
 09.06 - IB_2Sum, IB_ValidSudoku
 10.06 - IB_ReverseLinkListRecursion
+14.06 - LC_LongestSubstringWithoutRepeat!
 
 Done with help: ( ! )
 
 LC_168, LC_695, IB_Spiral Order Matrix I!, Max Sum Contiguous Subarray, All Factors,
 IB_IntersectionofLinkedLists, IB_Implement Power Function, IB_Implement StrStr,
-IB_NearestSmallerElement, IB_ListCycle, IB_Anagrams, IB_ReverseLinkListRecursion
+IB_NearestSmallerElement, IB_ListCycle, IB_Anagrams, IB_ReverseLinkListRecursion,
+LC_LongestSubstringWithoutRepeat
 
 Done by myself but need attention: ( ? )
 

@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Stacks And Queues" isTestSource="false" packagePrefix="ProgrammingExercises.StacksAndQueues" />
       <sourceFolder url="file://$MODULE_DIR$/Hashing" isTestSource="false" packagePrefix="ProgrammingExercises.Hashing" />
       <sourceFolder url="file://$MODULE_DIR$/Backtracking" isTestSource="false" packagePrefix="ProgrammingExercises.Backtracking" />
+      <sourceFolder url="file://$MODULE_DIR$/Bit Manipulation" isTestSource="false" packagePrefix="ProgrammingExercises.BitManipulation" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
