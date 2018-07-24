@@ -47,13 +47,14 @@ July
 20.06 - CW_FindMaxValueInTree
 22.06 - IB_InverttheBinaryTree
 23.06 - IB_MinDepthOfBinaryTree, IB_MaxDepthOfBinaryTree, IB_IdenticalBinaryTrees
+24.06 - IB_PreorderTraversal!
 
 Done with help: ( ! )
 
 LC_168, LC_695, IB_Spiral Order Matrix I!, Max Sum Contiguous Subarray, All Factors,
 IB_IntersectionofLinkedLists, IB_Implement Power Function, IB_Implement StrStr,
 IB_NearestSmallerElement, IB_ListCycle, IB_Anagrams, IB_ReverseLinkListRecursion,
-LC_LongestSubstringWithoutRepeat
+LC_LongestSubstringWithoutRepeat, IB_PreorderTraversal
 
 Done by myself but need attention: ( ? )
 
