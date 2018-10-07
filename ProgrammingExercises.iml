@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Backtracking" isTestSource="false" packagePrefix="ProgrammingExercises.Backtracking" />
       <sourceFolder url="file://$MODULE_DIR$/Bit Manipulation" isTestSource="false" packagePrefix="ProgrammingExercises.BitManipulation" />
       <sourceFolder url="file://$MODULE_DIR$/Trees" isTestSource="false" packagePrefix="ProgrammingExercises.Trees" />
+      <sourceFolder url="file://$MODULE_DIR$/Heaps" isTestSource="false" packagePrefix="ProgrammingExercises.Heaps" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
